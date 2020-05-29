@@ -4,11 +4,18 @@
 
 This will create docker image which has necessary files to execute unixbench on CentOS.
 
+```
+docker run -it 1stclass/docker_unixbench_centos /bin/bash;
+cd ~/bench/byte-unixbench/UnixBench/;
+./Run;
+```
+
 Docker hub repository
 
 https://hub.docker.com/repository/docker/1stclass/docker_unixbench_centos
 
 Github repository
+
 https://github.com/hikarine3/docker-unixbench-centos
 
 
